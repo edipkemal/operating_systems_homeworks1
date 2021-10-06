@@ -1,0 +1,6 @@
+Runtime of the Single Thread Program for the Given List:1.731000ms
+Runtime of the Multi Thread Program for the Given List:0.117000ms
+My opinion on the cause of difference in runtimes of parts:
+We can clearly see that multi thread program much more faster than single thread program.
+In single thread program, 5 operations executed with a single thread but in multi thread program, every operation executed with different threads.
+So processor could do all operations in same time, that is why multi thread program is faster.
